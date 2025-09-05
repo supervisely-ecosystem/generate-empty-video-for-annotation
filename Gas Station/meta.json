@@ -1,0 +1,157 @@
+{
+    "classes": [
+        {
+            "title": "License Plate",
+            "description": "",
+            "shape": "point",
+            "color": "#FF00DB",
+            "geometry_config": {},
+            "id": 577802,
+            "hotkey": ""
+        },
+        {
+            "title": "Vehicle",
+            "description": "",
+            "shape": "point",
+            "color": "#0900FF",
+            "geometry_config": {},
+            "id": 577803,
+            "hotkey": ""
+        }
+    ],
+    "tags": [
+        {
+            "name": "State",
+            "value_type": "oneof_string",
+            "color": "#FE5C00",
+            "values": [
+                "AL",
+                "AK",
+                "AS",
+                "AZ",
+                "AR",
+                "CA",
+                "CO",
+                "CT",
+                "DE",
+                "DC",
+                "FL",
+                "GA",
+                "GU",
+                "HI",
+                "ID",
+                "IL",
+                "IN",
+                "IA",
+                "KS",
+                "LA",
+                "ME",
+                "MD",
+                "MA",
+                "MI",
+                "MN",
+                "MS",
+                "MO",
+                "MT",
+                "NE",
+                "NV",
+                "NH",
+                "NJ",
+                "NM",
+                "NY",
+                "NC",
+                "ND",
+                "MP",
+                "OH",
+                "OK",
+                "OR",
+                "PA",
+                "PR",
+                "RI",
+                "SC",
+                "SD",
+                "TN",
+                "TX",
+                "UT",
+                "VT",
+                "VA",
+                "VI",
+                "WA",
+                "WV",
+                "WI",
+                "WY",
+                "ON",
+                "KY"
+            ],
+            "id": 52245211,
+            "hotkey": "",
+            "applicable_type": "objectsOnly",
+            "classes": [
+                "License Plate"
+            ],
+            "target_type": "entitiesOnly"
+        },
+        {
+            "name": "Pump_adjacent",
+            "value_type": "oneof_string",
+            "color": "#6200FF",
+            "values": [
+                "Yes",
+                "No"
+            ],
+            "id": 52245087,
+            "hotkey": "",
+            "applicable_type": "objectsOnly",
+            "classes": [
+                "Vehicle"
+            ],
+            "target_type": "entitiesOnly"
+        },
+        {
+            "name": "VehicleID",
+            "value_type": "any_number",
+            "color": "#FFC705",
+            "id": 52245088,
+            "hotkey": "",
+            "applicable_type": "objectsOnly",
+            "classes": [
+                "License Plate",
+                "Vehicle"
+            ],
+            "target_type": "entitiesOnly"
+        },
+        {
+            "name": "LP_Value",
+            "value_type": "any_string",
+            "color": "#07EC7B",
+            "id": 52245090,
+            "hotkey": "",
+            "applicable_type": "objectsOnly",
+            "classes": [
+                "License Plate"
+            ],
+            "target_type": "entitiesOnly"
+        },
+        {
+            "name": "Indiscernible",
+            "value_type": "none",
+            "color": "#00EEC4",
+            "id": 52245086,
+            "hotkey": "I",
+            "applicable_type": "objectsOnly",
+            "classes": [
+                "License Plate"
+            ],
+            "target_type": "entitiesOnly"
+        }
+    ],
+    "projectType": "videos",
+    "projectSettings": {
+        "multiView": {
+            "enabled": false,
+            "tagName": null,
+            "tagId": null,
+            "isSynced": false
+        }
+    }
+}
