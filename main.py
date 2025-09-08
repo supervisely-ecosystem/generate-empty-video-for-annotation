@@ -15,7 +15,7 @@ if video_names:
         os.remove(os.path.join(DATASET_DIRECTORY, "video", name))
 
 for ann in ann_names:
-    video_name = ann.replace(".json", "")  # Убираем .json и получаем имя видео
+    video_name = ann.replace(".json", "")
     ann_path = os.path.join(DATASET_DIRECTORY, "ann", ann)
 
     with open(ann_path, "r", encoding="utf-8") as file:
@@ -38,8 +38,8 @@ for ann in ann_names:
 
     for frame_num in range(frame_count):
         video_writer.write(black_frame)
-        # if frame_num % 1000 == 0:  # Показываем прогресс каждые 1000 фреймов
-        #     print(f"Обработано {frame_num}/{frame_count} фреймов")
+        if frame_num % 1000 == 0:
+            print(f"Ready {frame_num}/{frame_count} frames")
 
     video_writer.release()
     print(f"Empty video saved: {video_path}")
